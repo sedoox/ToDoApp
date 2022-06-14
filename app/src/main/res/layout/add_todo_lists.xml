@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Listenname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/add_date_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Erstellungsdatum"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/add_date_valid_until"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Gültigkeitsdatum"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/add_max_todos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="maximale Anzahl Todos"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/add_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Liste erstellen"
+        tools:text="Liste erstellen" />
+
+</LinearLayout>
